@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+
+/*----------------------HEADER SECTION WITH NAV BAR-------------------*/
+header {
+    margin: 0
+    }
+
+.heading {
+    margin-left: 60px;
+}
+
+.image1 {
+    background: url("../images/image1.jpeg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+
+}
+
+.background-color {
+    background-color: #E3DFFF;
+}
+
+.name { 
+    font-family: "Lato", Arial;
+}
