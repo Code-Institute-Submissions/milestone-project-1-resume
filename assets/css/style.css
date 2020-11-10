@@ -129,9 +129,9 @@ list-inline {
     letter-spacing:1px;
 }
 
-/*----------------------MY RESUME SECTION-------------------*/
+/*----------------------ABOUT ME SECTION-------------------*/
 
-.background-color-my-resume {
+.background-color-about-me {
     background:#EEEDED
 }
 
@@ -151,6 +151,15 @@ list-inline {
     margin-top: 25px;
     margin-bottom: 40px;
      }
+
+.about-me-icon{
+    font-size:26px;
+    color: #270E44;
+}
+
+.about-me-heading {
+    margin-bottom: 15px;
+}
 
 /*----------------------FOOTER SECTION WITH ABOUT ME SECTION, DOWNLOAD CV BUTTON AND SOCIAL LINKS-------------------*/
 
