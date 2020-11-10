@@ -6,7 +6,17 @@
     height: 180px;
 }
 
+/*----------------------PADDING FOR BODY ELEMENTS-------------------*/
 
+h1 h2 h3 h4 {
+    margin: 0
+}
+
+/*----------------------DISPLAY FOR BODY ELEMENTS-------------------*/
+
+.inline-block {
+    display: inline-block;
+}
 
 /*----------------------HEADER SECTION WITH NAV BAR-------------------*/
 header {
@@ -117,5 +127,69 @@ list-inline {
     text-align: center;
     font-size: 20px;
     letter-spacing:1px;
+}
 
+/*----------------------MY RESUME SECTION-------------------*/
+
+.background-color-my-resume {
+    background:#EEEDED
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 80px 80px;
+    float: none;
+}
+
+.section-heading { 
+    font-family:"Lato", Arial;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+     }
+
+/*----------------------FOOTER SECTION WITH ABOUT ME SECTION, DOWNLOAD CV BUTTON AND SOCIAL LINKS-------------------*/
+
+footer {
+    background-color: #EEEDED;
+    color:  #270E44;
+    min-height: 180px;
+
+}
+
+.general-sub {
+    font-family: "Lato", Arial;
+    font-weight: 200;
+    color: #270E44;
+}
+
+.cv-pdf i {
+    font-size: 40px;
+    color: #270E44;
+    text-align: center;
+    padding-left: 20px;}
+
+.social-links {
+    padding-bottom: 20px;
+}
+
+.social-links li a i {
+    width: 35px;
+    height: 35px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color:#270E44;
+    background:#E3DFFF;
+
+}
+
+#footer-details{
+    padding: 30px;
 }
