@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap:100,200,300,400,500');
 
 /*----------------------HEADER SECTION WITH NAV BAR-------------------*/
 header {
@@ -6,7 +6,7 @@ header {
     }
 
 .heading {
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 .image1 {
@@ -24,4 +24,19 @@ header {
 
 .name { 
     font-family: "Lato", Arial;
+    font-weight:  500;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #270E44;
+}
+
+.titlename {
+    font-family: "Lato", Arial;
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #270E44;
+
 }
