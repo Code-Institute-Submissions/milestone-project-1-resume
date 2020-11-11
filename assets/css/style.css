@@ -6,6 +6,19 @@
     height: 180px;
 }
 
+/*----------------------MEDIA QUERIES-------------------*/
+
+@media (min-width:992px) {
+    .center-form {
+    padding-top: 20px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width:50%
+    }
+}
+
+
+
 /*----------------------PADDING FOR BODY ELEMENTS-------------------*/
 
 h1 h2 h3 h4 {
