@@ -219,6 +219,13 @@ background-color:#D8EBFD;
     background-color: rgba (25, 25, 25, 0.2);
 }
 
+/*----------------------CONTACT ME SECTION-------------------*/
+
+.background-color-contact {
+    background-color: #EEEDED
+}
+
+
 /*----------------------FOOTER SECTION WITH ABOUT ME SECTION, DOWNLOAD CV BUTTON AND SOCIAL LINKS-------------------*/
 
 footer {
