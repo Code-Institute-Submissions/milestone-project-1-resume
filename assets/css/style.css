@@ -176,6 +176,7 @@ list-inline {
 
 .uppercase{
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .background-color-personal-info{
