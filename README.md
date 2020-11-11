@@ -8,3 +8,11 @@ course, in order to showcase my knowledge of different languages, technologies a
 of my application to any junior web developer roles. I have included personal information, social media links, as well as some about me information, which includes my education, work experience, and future plans.
 I also included a form, which visitors can use to get in touch, if they are interested. I believe this project will be something I will continue to work on and it is a great staring pont in my full 
 stack developmet portfolio.</p>
+
+# Links
+
+This webpage is hosted on GitHub pages with a repository on GitHub.
+
+[Click here to view My Project] (#)
+
+[Click here to view my Repository] (#)
