@@ -225,6 +225,24 @@ background-color:#D8EBFD;
     background-color: #EEEDED
 }
 
+.contact-heading{
+    font-family: "Lato", Arial;
+    color:#270E44; 
+    font-weight: 300;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.center-form {
+    padding-top: 20px;
+    margin: 0 auto;
+    max-width:70%
+}
+
+button[type="submit"] {
+    color:#270E44;
+    background-color:#E3DFFF;
+}
 
 /*----------------------FOOTER SECTION WITH ABOUT ME SECTION, DOWNLOAD CV BUTTON AND SOCIAL LINKS-------------------*/
 
