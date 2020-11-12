@@ -313,6 +313,7 @@ footer {
     font-family: "Lato", Arial;
     font-weight: 200;
     color: #270E44;
+    text-align: center;
 }
 
 .cv-pdf i {
@@ -323,6 +324,7 @@ footer {
 
 .social-links {
     padding-bottom: 20px;
+    text-align: center;
 }
 
 .social-links li a i {
@@ -339,14 +341,7 @@ footer {
 
 #footer-details{
     padding: 30px;
-}
-
-.fixed-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
+    text-align: center;
 }
 
 /*----------------------SCRIPT FOR SCROLL TO TOP BUTTON - I copied this code from an online template-------------------*/
