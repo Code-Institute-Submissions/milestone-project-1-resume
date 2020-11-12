@@ -116,6 +116,7 @@ list-inline {
 
 .menucontainer {
     font-size: 0;
+    text-align: center;
 }
 
 #navbar {
@@ -125,6 +126,7 @@ list-inline {
 #navbar li {
     font-size: 14px;
     padding: 0;
+    text-align: center;
 }
 
 .menuitem{
@@ -135,13 +137,14 @@ list-inline {
 
 .black-color {
     color: black;
+    text-align: center;
 }
 
 .menuitem a {
     width: 100%;
-    text-decoration: underline;
     color: #270E44;
     height: 160px;
+    text-align: center; 
 }
 
 .menuitem a i {
