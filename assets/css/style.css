@@ -6,6 +6,13 @@
     height: 180px;
 }
 
+.make-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
 /*----------------------MEDIA QUERIES-------------------*/
 
 @media (min-width:992px) {
@@ -17,12 +24,10 @@
     }
 }
 
-
-
 /*----------------------PADDING FOR BODY ELEMENTS-------------------*/
 
 h1 h2 h3 h4 {
-    margin: 0
+    margin: 0;
 }
 
 /*----------------------DISPLAY FOR BODY ELEMENTS-------------------*/
@@ -33,7 +38,7 @@ h1 h2 h3 h4 {
 
 /*----------------------HEADER SECTION WITH NAV BAR-------------------*/
 header {
-    margin: 0
+    margin: 0;
     }
 
 .heading {
@@ -46,7 +51,6 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
-
 }
 
 .background-color {
@@ -73,6 +77,16 @@ header {
 
 }
 
+@media (max-width: 767px) {
+  .name {
+    font-size: 32px;
+  }
+
+  .titlename {
+    font-size: 25px;
+  }
+}
+
 .ui-menu-color-home {
     background-color: #C45BAA;
 }
@@ -89,7 +103,7 @@ header {
     background-color: #FF6700;
 }
 
-.list-inline-item:not(:last-child) {
+.list-inline-item:not(:last-child){
     margin: 0;
 }
 list-inline {
@@ -117,6 +131,10 @@ list-inline {
     height: 180px;
     text-align: center;
     padding:0;
+}
+
+.black-color {
+    color: black;
 }
 
 .menuitem a {
@@ -158,6 +176,12 @@ list-inline {
     float: none;
 }
 
+@media (max-width:767px) { 
+    .section-column {
+        padding: 0 20px 20px;
+    }
+}
+
 .section-heading { 
     font-family:"Lato", Arial;
     font-weight: 300;
@@ -172,6 +196,9 @@ list-inline {
 
 .about-me-heading {
     margin-bottom: 15px;
+    font-size: 22px;
+    padding-left: 10px;
+    font-weight: bold;
 }
 
 .uppercase{
@@ -233,6 +260,22 @@ background-color:#D8EBFD;
     background-color: rgba (25, 25, 25, 0.2);
 }
 
+.bottom-margin {
+    margin-bottom: 160px;
+}
+
+@media (max-width: 767px) {
+    .bottom-margin {
+        margin-bottom: 220px;
+    }
+}
+
+@media (max-width: 567px) {
+    .bottom-margin {
+        margin-bottom: 320px;
+    }
+}
+
 /*----------------------CONTACT ME SECTION-------------------*/
 
 .background-color-contact {
@@ -264,7 +307,6 @@ footer {
     background-color: #EEEDED;
     color:  #270E44;
     min-height: 180px;
-
 }
 
 .general-sub {
@@ -298,6 +340,14 @@ footer {
 
 #footer-details{
     padding: 30px;
+}
+
+.fixed-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 /*----------------------SCRIPT FOR SCROLL TO TOP BUTTON - I copied this code from an online template-------------------*/

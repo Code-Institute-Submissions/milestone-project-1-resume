@@ -28,17 +28,17 @@
        <div class="col">
          <ul id="navbar" class="list-inline menucontainer">
            <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem">
-             <a href="index.html" class="hvr-sweep-to-bottom"> <i class="fa fa-home"></i><span>Home</span>
+             <a href="index.html" class="hvr-sweep-to-bottom"> <i class="fa fa-home"></i><span class="black-color">Home</span>
              </a>
            </li>
            <li class="col-6 col-sm-3 ui-menu-color-my-skills list-inline-item menuitem">
-             <a href="myskills.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap"></i><span>My Skills</span></a>
+             <a href="myskills.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap"></i><span class="black-color">My Skills</span></a>
            </li>
             <li class="col-6 col-sm-3 ui-menu-color-contact-me list-inline-item menuitem">
-             <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment-o"></i><span>Contact Me</span></a>
+             <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment-o"></i><span class="black-color">Contact Me</span></a>
            </li>   
             <li class="col-6 col-sm-3 ui-menu-color-download-cv list-inline-item menuitem">
-             <a href="assets/cv/cv.pdf" class="hvr-sweep-to-bottom"><i class="fa fa-download"></i><span>Download CV</span></a>
+             <a href="assets/cv/cv.pdf" class="hvr-sweep-to-bottom"><i class="fa fa-download"></i><span class="black-color">Download CV</span></a>
            </li>             
          </ul>
       </div>
@@ -49,14 +49,12 @@
 
 <!--- ABOUT ME AND PERSONAL INFO SECTION -->
 
-<section class="container-fluid">
+<section class="container-fluid bottom-margin" >
   <div class="row">
     <div class="col-md-4 background-color-personal-info section-column">
       <div class="row">
         <div class="col-12">
-           <h3 class="section-heading">
-           Personal Information
-           </h3>
+           <h3 class="section-heading">Personal Information</h3>
         </div>
       </div>
        <div class="personal-info">
@@ -181,8 +179,10 @@
 
 <!---FOOTER SECTION WITH ABOUT ME SECTION, DOWNLOAD CV BUTTON AND SOCIAL LINKS-->
 
-<footer class= "container-fluid">
+<footer class= "container-fluid fixed-footer" >
   <div id="footer-details" class="row">
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fa fa-angle-up" style="font-size: 30px"></i></button>
 <div class="col-sm-4">
    <h5 class="general-sub">About Me</h5>
    <p class="inline-block"> 
@@ -234,7 +234,7 @@
 </div>
 </footer>
 
-<!--- SCRIPT FOR SCROLL TO TOP BUTTON - I copied this code from an online template-->
+<!--- SCRIPT FOR SCROLL TO TOP BUTTON- I copied this code from an online template--->
 
 <script>
       var mybutton = document.getElementById("myBtn");
