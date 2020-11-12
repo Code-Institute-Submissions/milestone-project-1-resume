@@ -299,3 +299,26 @@ footer {
 #footer-details{
     padding: 30px;
 }
+
+/*----------------------SCRIPT FOR SCROLL TO TOP BUTTON - I copied this code from an online template-------------------*/
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #007cbe;
+  opacity: 0.5;
+  color: white;
+  cursor: pointer;
+  padding: 8px 12px 8px 12px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
